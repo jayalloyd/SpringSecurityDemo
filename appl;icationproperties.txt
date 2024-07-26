@@ -2,3 +2,7 @@ application.properties
 spring.application.name=SpringSecurityDemo
 spring.security.user.name=meenu
 spring.security.user.password=rooney4321
+
+//same site strict property instead of csrf token
+
+server.servlet.session.cookie.same-site=strict
